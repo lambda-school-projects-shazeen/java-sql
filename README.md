@@ -50,7 +50,9 @@ where upper(country) = 'LONDON'
   </details>
 
 ```SQL
-
+select contact_name, postal_code
+from customers
+where postal_code = '1010'
 ```
 
 * [ ] ***find the phone number for the supplier with the id 11. Should be (010) 9984510***
