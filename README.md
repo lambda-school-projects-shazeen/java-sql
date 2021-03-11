@@ -105,7 +105,9 @@ where length(company_name) > 20
   </details>
 
 ```SQL
-
+select contact_title
+from customers
+where upper(contact_title) like '%MARKET%'
 ```
 
 * [ ] ***add a customer record for***
