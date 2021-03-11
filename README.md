@@ -90,7 +90,9 @@ ORDER BY order_date DESC
   </details>
 
 ```SQL
-
+select company_name
+from suppliers
+where length(company_name) > 20
 ```
 
 * [ ] ***find all customers that include the word 'MARKET' in the contact title. Should return 19 records***
