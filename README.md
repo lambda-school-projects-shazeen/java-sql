@@ -37,7 +37,9 @@ Reimport the Northwind database into PostgreSQL using pgAdmin. This is the same 
   </details>
 
 ```SQL
-
+select contact_name, country
+from customers
+where upper(country) = 'LONDON' 
 ```
 
 * [ ] ***find all customers with postal code 1010. Returns 3 customers***
