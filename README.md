@@ -63,7 +63,9 @@ where postal_code = '1010'
   </details>
 
 ```SQL
-
+select phone, supplier_id
+from suppliers
+where supplier_id = '11'
 ```
 
 * [ ] ***list orders descending by the order date. The order with date 1998-05-06 should be at the top***
